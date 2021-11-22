@@ -1,0 +1,297 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(36,40,43);
+    color: white;
+    height: 13vh;
+    align-items: center;
+    border-bottom: solid 5px rgb(18, 147, 212);
+}
+
+.arriba{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.multi{
+    color: rgb(18, 147, 212);
+}
+
+.titulo1{
+    display: flex;
+    gap: 10px;
+    font-size: 2rem;
+}
+
+.lugar{
+    color: rgb(18, 147, 212);
+}
+
+.titulo{
+    background-image: url(/images/cabecera.jpg);
+    background-size: cover;
+    height: 450px;
+    background-position: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h3{
+    font-size: 4rem;
+}
+
+.texto{
+    width: 60%;
+}
+
+.titulo p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.subscribirte{
+    display: flex;
+    align-items: center;
+    background-color: rgb(36,40,43);
+    height: 13vh;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+h4{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+form{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+}
+
+input{
+    width: 60%;
+    height: 5vh;
+    border-radius: 0%;
+}
+
+button{
+    width: 30%;
+    background-color: rgb(232,73,29);
+    color: white;
+    font-size: 1.2rem;
+    height: 6vh;
+    border: rgb(232,73,29);
+}
+
+::placeholder{
+    font-size: 1.2rem;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: rgb(244,244,244);
+}
+.caja1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 30%;
+}
+.cajaGrande{
+    display: flex;
+    width: 84%;
+    justify-content: space-evenly;
+}
+
+.cajaGrande .caja1 img{
+    width: 40%;
+}
+
+h5{
+    font-size: 1.5rem;
+}
+
+.caja1 p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+footer{
+    background-color: rgb(18, 147, 212);
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.nosotros{
+    height: 85vh;
+}
+
+.parte1{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 59.4%;
+    font-size: 1.13rem;
+}
+
+.parte{
+    height: 78vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 59.4%;
+    font-size: 1.13rem;
+}
+
+.parrafo1{
+    background-color: rgb(53,66,74);
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+}
+
+.parrafo1 p{
+    width: 96%;
+}
+
+.parte2{
+    background-color: rgb(53,66,74);
+    height: 32vh;
+    width: 28%;
+    color: white;
+    font-size: 1.16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.parte2 h5,.parte2 p{
+    width: 92.4%;
+}
+
+.parrafo{
+    background-color: rgb(230,230,230);
+    height: 22.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.parrafo h5, .parrafo p{
+    width: 90%;
+}
+
+.dividir{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.part img{
+    width: 100%;
+}
+
+.lado{
+    background-color: rgb(53,66,74);
+    height: 32vh;
+    width: 100%;
+    color: white;
+    font-size: 1.16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.lado h5, .lado p{
+    width: 90%;
+}
+
+.part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28%;
+    gap: 20px;
+}
+
+.contacto{
+    height: 95vh;
+}
+
+.contacto form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.formulario{
+    width: 100%;
+}
+
+.formulario input, .formulario textarea {
+    border: solid 2px rgba(53, 66, 74, 0.356);
+}
+
+.contacto form input,.contacto form button,.contacto form textarea{
+    width: 100%;
+}
+
+.parte3{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 59.4%;
+    font-size: 1.13rem;
+    gap: 25px;
+}
