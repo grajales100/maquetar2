@@ -54,7 +54,7 @@ nav{
 }
 
 .titulo{
-    background-image: url(/images/cabecera.jpg);
+    background-image: url("../images/cabecera.jpg");
     background-size: cover;
     height: 450px;
     background-position: 0;
