@@ -20,6 +20,11 @@ header{
     justify-content: space-between;
     width: 80%;
 }
+.arriba1{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
 
 ul{
     list-style: none;
@@ -54,7 +59,7 @@ nav{
 }
 
 .titulo{
-    background-image: url(/images/cabecera.jpg);
+    background-image: url("../images/cabecera.jpg");
     background-size: cover;
     height: 450px;
     background-position: 0;
@@ -140,8 +145,26 @@ main{
     width: 84%;
     justify-content: space-evenly;
 }
+.cajaGrande1{
+    display: flex;
+    width: 84%;
+    justify-content: space-evenly;
+}
+.cajaGrande2{
+    display: flex;
+    width: 84%;
+    justify-content: space-evenly;
+}
 
 .cajaGrande .caja1 img{
+    width: 40%;
+}
+
+.cajaGrande1 .caja1 img{
+    width: 40%;
+}
+
+.cajaGrande2 .caja1 img{
     width: 40%;
 }
 
@@ -294,4 +317,130 @@ footer{
     width: 59.4%;
     font-size: 1.13rem;
     gap: 25px;
+}
+
+@media (max-width:1500px){
+    
+    header{
+        justify-content: start;
+    }
+    .arriba{
+        justify-content: space-evenly;
+        width: 90%;
+    }
+    .arriba1{
+        justify-content: space-evenly;
+        width: 90%;
+    }
+    .parrafo1{
+        height: 180px;
+    }
+    main{
+        height: 60vh;
+    }
+}
+
+@media (max-width:1200px){
+    
+    header{
+        justify-content: center;
+    }
+    .arriba{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .arriba1{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .titulo1{
+        width: 100%;
+        justify-content: center
+    }
+    nav{
+        justify-content: center;
+        width: 100%;
+    }
+    form{
+        width: 90%;
+    }
+    .cajaGrande{
+        width: 98%;
+    }
+    .cajaGrande1{
+        width: 98%;
+    }
+    .cajaGrande2{
+        width: 98%;
+    }
+    
+}
+
+@media (max-width:1000px){
+    .parrafo1{
+        height: 200px;
+    }
+    .cajaGrande{
+        width: 95%;
+        justify-content: space-between;
+    }
+    .cajaGrande2{
+        width: 95%;
+        justify-content: space-between;
+    }
+    h3{
+        width: 55%;
+        text-align: center;
+    }
+}
+
+@media (max-width:900px){
+    .cajaGrande{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    .cajaGrande2{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    .nosotros{
+        height: 140vh;
+    }
+    .cajaGrande{
+        height: 135vh;
+    }
+    .parte2{
+        width: 90%;
+    }
+    .parte1{
+        gap: 20px;
+        height: 90vh;
+        width: 90%;
+    }
+    .parrafo1{
+        height: 300px;
+    }
+    .parte{
+        gap: 5px;
+        height: 81vh;
+        width: 90%;
+    }
+    .parrafo{
+        height: 26.5vh;
+    }
+    .contacto{
+        height: 186vh;
+        gap: 20px;
+    }
+    .part{
+        width: 59.4%;
+    }
+    .cajaGrande2{
+        height: 175vh;
+    }
 }
